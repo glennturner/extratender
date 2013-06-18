@@ -18,7 +18,7 @@ As this extension is still a work-in-progress, it has yet to be submitted to the
 
 Upon installation, you'll need to configure your Tender account settings via the *ExtraTender* Extension options. You'll need to enter in your Tender subdomain and API key, both of which can be found via the 'Edit your Tender profile' option.
 
-As *ExtraTender* utilizes fancy-settings, all settings are stored locally via your browser (specifically, via localStorage).
+As *ExtraTender* utilizes fancy-settings, all settings are stored locally via your browser (specifically, via localStorage). 
 
 After installation, *ExtraTender* is meant to be navigated via keyboard:
 
@@ -29,7 +29,10 @@ After installation, *ExtraTender* is meant to be navigated via keyboard:
 To-Do
 -----
 
-- Improve styling, especially in reply headers in multi-comment threads
+- Improve styling with:
+	- reply headers in multi-comment threads
+	- from headers in multi-comment threads
+	- add zebra-styling to multi-comment threads
 - Improve timestamp formatting
 - Suppress hrs in multi-comment threads if there's no comment text
 - Add keyboard shortcuts for closing/deleting/spamming discussions

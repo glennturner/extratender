@@ -1,8 +1,5 @@
 // get Tender account information
-var account = {
-//	domain: 'standalone',
-//	token: '84974cfd9b9264f614a696777642b3ec1f404eb0'
-};
+var account = {};
 
 var keyEvents = {};
 chrome.extension.sendRequest(
