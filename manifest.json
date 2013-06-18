@@ -1,0 +1,22 @@
+{
+	"name": "ExtraTender",
+	"version": "0.3",
+	"manifest_version": 4,
+	"description": "An optimized Tenderapp.com for support techs.",
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	"content_scripts": [
+		{
+			"matches": [ "https://*.tenderapp.com/*", "http://*.tenderapp.com/*" ],
+			"js": [ "lib/util.js", "lib/tender.js", "lib/extratender.js", "contentscript.js" ],
+			"css": [ "css/extratender.css" ]
+		}
+	],
+	"permissions": [
+		"tabs",
+		"storage",
+		"*://*.tenderapp.com/*"
+	],
+	 "options_page": "fancy-settings/index.html"
+}

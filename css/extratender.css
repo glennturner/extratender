@@ -1,0 +1,73 @@
+
+/* ExtraTender styling */
+
+#extratender-discussion {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+
+#extratender-discussion iframe {
+	width: 100%;
+	height: 640px;
+}
+
+#extratender-discussion #extratender-text {
+	min-height: 30px;
+	max-height: 400px;
+	overflow: auto;
+}
+
+#extratender-discussion .warning {
+	color: red;
+}
+
+#extratender-discussion .extratender-actionbar {
+	width: 100%;
+	text-align: right;
+}
+
+#extratender-discussion textarea {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 5.5em;
+}
+
+#extratender-discussion hr {
+	border-color: #000;
+	border-right: 0;
+	border-left: 0;	
+	border-bottom: 0;
+}
+
+/* via http://www.sitepoint.com/css3-ajax-loading-icon/ */
+
+#extratender-discussion .ajaxloader {
+	display: inline-block;
+	margin-right: 0.25em;
+	margin-bottom: -4px;
+	width: 10px;
+	height: 10px;
+	border: 3px solid #6F6E6E;
+	border-right-color: transparent;
+	border-radius: 50%;
+}
+
+#extratender-discussion .ajaxloader {
+	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	from { transform: rotate( 0deg );   opacity: 0.2; }
+	50%  { transform: rotate( 180deg ); opacity: 1.0; }
+	to   { transform: rotate( 360deg ); opacity: 0.2; }
+}
+
+/* prefix hell */
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate( 0deg );   opacity: 0.2; }
+	50%  { -webkit-transform: rotate( 180deg ); opacity: 1.0; }
+	to   { -webkit-transform: rotate( 360deg ); opacity: 0.2; }
+}
