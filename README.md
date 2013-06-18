@@ -30,6 +30,8 @@ To-Do
 -----
 
 - Improve styling, especially in reply headers in multi-comment threads
+- Improve timestamp formatting
+- Suppress hrs in multi-comment threads if there's no comment text
 - Add keyboard shortcuts for closing/deleting/spamming discussions
 - Add onclick support to show/hide quick reply
 - Add support for multiple Tenderapps
