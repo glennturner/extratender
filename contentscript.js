@@ -29,8 +29,21 @@ function removeWindowKeyEvents() {
 }
 
 function addKeyStates( e ) {
-	if ( keyEvents.cmd && keyEvents.ctrl && String.fromCharCode(e.keyCode) == 'S' ) {
-		ET.toggle();
+	var character = String.fromCharCode( e.keyCode );
+	
+	// shortcuts for the active discussion
+	if ( e.ctrlKey && e.metaKey ) {
+		// close discussion if confirmed
+		if ( character == 'C' ) {
+			ET.doDiscussionAction( 'close-confirm' );
+		// delete discussion
+		} else if ( character == 'D' ) {
+			ET.doDiscussionAction( 'delete' );
+		// spam discussion
+		} else if ( character == 'S' ) {
+			ET.doDiscussionAction( 'spam' );
+		}
+	// toggle visibility
 	} else if ( e.keyCode == 13 && ET.isDiscussion( e.srcElement ) ) {
 		ET.toggleDiscussion( e.srcElement );
 	}

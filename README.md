@@ -20,11 +20,20 @@ Upon installation, you'll need to configure your Tender account settings via the
 
 As *ExtraTender* utilizes fancy-settings, all settings are stored locally via your browser (specifically, via localStorage). 
 
+Usage
+-----
+
 After installation, *ExtraTender* is meant to be navigated via keyboard:
 
 - Navigate between threads via 'Tab'
 - Open/Close quick-reply via 'Return/Enter'
 - If quick reply is open, you can tab through the reply options
+
+You can also use the following keyboard shortcuts for the active (or first) comment:
+
+CMD + Control + C: Close the discussion
+CMD + Control + D: Delete the discussion
+CMD + Control + S: Flag the discussion as spam
 
 To-Do
 -----
@@ -35,7 +44,6 @@ To-Do
 	- add zebra-styling to multi-comment threads
 - Improve timestamp formatting
 - Suppress hrs in multi-comment threads if there's no comment text
-- Add keyboard shortcuts for closing/deleting/spamming discussions
 - Add onclick support to show/hide quick reply
 - Add support for multiple Tenderapps
 - Add icon
