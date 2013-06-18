@@ -31,9 +31,9 @@ After installation, *ExtraTender* is meant to be navigated via keyboard:
 
 You can also use the following keyboard shortcuts for the active (or first) comment:
 
-CMD + Control + C: Close the discussion
-CMD + Control + D: Delete the discussion
-CMD + Control + S: Flag the discussion as spam
+- CMD + Control + C: Close the discussion
+- CMD + Control + D: Delete the discussion
+- CMD + Control + S: Flag the discussion as spam
 
 To-Do
 -----
