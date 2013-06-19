@@ -45,6 +45,7 @@ To-Do
 - Improve timestamp formatting
 - Suppress hrs in multi-comment threads if there's no comment text
 - Add onclick support to show/hide quick reply
+- Add attachment handling
 - Add support for multiple Tenderapps
 - Add icon
 
