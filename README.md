@@ -35,23 +35,10 @@ You can also use the following keyboard shortcuts for the active (or first) comm
 - CMD + Control + D: Delete the discussion
 - CMD + Control + S: Flag the discussion as spam
 
-To-Do
------
-
-- Improve styling with:
-	- reply headers in multi-comment threads
-	- from headers in multi-comment threads
-	- add zebra-styling to multi-comment threads
-- Improve timestamp formatting
-- Suppress hrs in multi-comment threads if there's no comment text
-- Add onclick support to show/hide quick reply
-- Add attachment handling
-- Add support for multiple Tenderapps
-- Add icon
-
 Author
 ------
 G. Turner
+
 development@peccaui.com
 
 License
