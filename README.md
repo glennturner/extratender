@@ -14,11 +14,11 @@ As I'm a developer that replies directly to our company's users, I found this cu
 Installation
 ------------
 
-As this extension is still a work-in-progress, it has yet to be submitted to the Chrome Store so you'll have to enable Developer mode to use it (check off 'Developer Mode' after opening Windows > Extensions).
+As this extension is still a work-in-progress, it has yet to be submitted to the Chrome Web Store, so you'll have to enable Developer mode to use it (to do so, check off 'Developer Mode' after opening Windows > Extensions). Unless any issues are detected, the next milestone will be submitted to the Chrome Web Store.
 
-Upon installation, you'll need to configure your Tender account settings via the *ExtraTender* Extension options. You'll need to enter in your Tender subdomain and API key, both of which can be found via the 'Edit your Tender profile' option.
+Upon installation, you'll need to configure your Tender account settings via the *ExtraTender* Extension options. To store your Tender settings, enter your Tender subdomain and API key, both of which can be found via the 'Edit your Tender profile' option.
 
-As *ExtraTender* utilizes the fantastic [fancy-settings](https://github.com/zealotrunner/fancy-settings), all settings are stored locally via your browser (specifically, via localStorage).
+As *ExtraTender* utilizes the fantastic [fancy-settings](https://github.com/zealotrunner/fancy-settings) framework, all settings are locally stored via your browser (specifically, via localStorage).
 
 Usage
 -----
@@ -40,6 +40,7 @@ Author
 G. Turner
 
 Email: development@peccaui.com
+
 Twitter: @gturner
 
 License
