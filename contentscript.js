@@ -36,8 +36,8 @@ function addKeyStates( e ) {
 		// close discussion if confirmed
 		if ( character == 'C' ) {
 			ET.doDiscussionAction( 'close-confirm' );
-		// delete discussion
-		} else if ( character == 'D' ) {
+		// remove discussion
+		} else if ( character == 'R' ) {
 			ET.doDiscussionAction( 'delete' );
 		// spam discussion
 		} else if ( character == 'S' ) {
