@@ -6,7 +6,7 @@ A Chrome extension for [Tender](http://tenderapp.com) to enable quick replies wi
 Why?
 ----
 
-I love Tender, but clicking through each and every thread, replying, then manually closing the thread, really drags down our support ticket efficiency, especially when many of our tickets only require a boilerplate response. 
+I love Tender, but clicking through each and every thread, replying and then manually closing the thread really drags down our support ticket efficiency, especially when many of our tickets only require a boilerplate response. 
 
 As I'm a developer that replies directly to our company's users, I found this cumbersome and created *ExtraTender*, which allows us to drill through discussion lists quickly. The quick-reply options cover ~90% of our tickets, and has reduced the amount of time we spend on support tickets drastically. Hopefully it'll help you, too!
 
