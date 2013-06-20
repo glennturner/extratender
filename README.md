@@ -18,7 +18,7 @@ As this extension is still a work-in-progress, it has yet to be submitted to the
 
 Upon installation, you'll need to configure your Tender account settings via the *ExtraTender* Extension options. You'll need to enter in your Tender subdomain and API key, both of which can be found via the 'Edit your Tender profile' option.
 
-As *ExtraTender* utilizes fancy-settings, all settings are stored locally via your browser (specifically, via localStorage). 
+As *ExtraTender* utilizes the fantastic [fancy-settings](https://github.com/zealotrunner/fancy-settings), all settings are stored locally via your browser (specifically, via localStorage).
 
 Usage
 -----
@@ -39,7 +39,8 @@ Author
 ------
 G. Turner
 
-development@peccaui.com
+Email: development@peccaui.com
+Twitter: @gturner
 
 License
 -------
