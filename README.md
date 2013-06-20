@@ -41,7 +41,7 @@ G. Turner
 
 Email: development@peccaui.com
 
-Twitter: @gturner
+Twitter: [@gturner](https://www.twitter.com/gturner)
 
 License
 -------
