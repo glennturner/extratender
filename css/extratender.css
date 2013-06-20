@@ -35,10 +35,9 @@
 }
 
 #extratender-discussion hr {
-	border-color: #000;
-	border-right: 0;
-	border-left: 0;	
-	border-bottom: 0;
+	border: 0;
+	background-color: #DBDADA;
+	height: 1px;
 }
 
 /* via http://www.sitepoint.com/css3-ajax-loading-icon/ */
