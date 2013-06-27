@@ -6,8 +6,7 @@ chrome.extension.sendRequest(
 	{ 						
 		action: 'getSettings'
 	}, function ( settings ) {
-					
-		if ( !settings.domain || !settings.token ) {
+		if ( !settings.domain && !settings.token )  {
 			alert( 'Your Tender account information has not yet been set. Please do so via Window > Extensions.' );
 		}
 

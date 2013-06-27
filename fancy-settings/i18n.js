@@ -19,10 +19,10 @@ this.i18n = {
         "en": "Tender Account"
     },
     "domain": {
-        "en": "Tender URL"
+        "en": "Tender Subdomain"
     },
     "domain-label": {
-        "en": "Please enter your Tender domain info. This is your default Tender URL, as defined in your Tender settings."
+        "en": "Please enter your Tender subdomain. This is your default Tender namespace, as defined in your Tender settings. Please note: anything BUT your subdomain will create authentication issues."
     },	
 	"api-key": {
 		"en": "Tender API Key"
