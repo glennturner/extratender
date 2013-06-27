@@ -14,7 +14,7 @@ As I'm a developer that replies directly to our company's users, I found this cu
 Installation
 ------------
 
-As this extension is still a work-in-progress, it has yet to be submitted to the Chrome Web Store, so you'll have to enable Developer mode to use it (to do so, check off 'Developer Mode' after opening Windows > Extensions). Unless any issues are detected, the next milestone will be submitted to the Chrome Web Store.
+This extension is available via the Chrome Web Store [here](https://chrome.google.com/webstore/detail/extratender/ighlhdmklejilhojoedngmjpfchabfep?hl=en&gl=US).
 
 Upon installation, you'll need to configure your Tender account settings via the *ExtraTender* Extension options. To store your Tender settings, enter your Tender subdomain and API key, both of which can be found via the 'Edit your Tender profile' option.
 

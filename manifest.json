@@ -1,8 +1,11 @@
 {
 	"name": "ExtraTender",
 	"version": "0.31",
-	"manifest_version": 4,
+	"manifest_version": 2,
 	"description": "An optimized Tenderapp.com for support techs.",
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png"
+	},
 	"background": {
 		"scripts": [ "background.js" ]
 	},
