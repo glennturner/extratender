@@ -7,7 +7,7 @@
 	width: 100%;
 }
 
-#extratender-discussion .hide {
+#extratender-discussion .hide, #extratender-notify .hide {
 	display: none;
 }
 
@@ -20,13 +20,21 @@
 	height: 640px;
 }
 
+#extratender-notify #extratender-success {
+	background-color: #FDFFB6;
+}
+
+#extratender-notify #extratender-error {
+	background-color: #FFA6AE;
+}
+
 #extratender-discussion #extratender-text {
 	min-height: 30px;
 	max-height: 400px;
 	overflow: auto;
 }
 
-#extratender-discussion #extratender-category, #extratender-discussion #extratender-users {
+#extratender-discussion #extratender-category-container, #extratender-discussion #extratender-user-container {
 	float: right;
 }
 
