@@ -1,6 +1,10 @@
 
 /* ExtraTender styling */
 
+.discussion-item:focus {
+	background-color: rgba(0,111,187,0.1);
+}
+
 #extratender-discussion {
 	display: block;
 	clear: both;

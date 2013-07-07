@@ -23,17 +23,23 @@ As *ExtraTender* utilizes the fantastic [fancy-settings](https://github.com/zeal
 Usage
 -----
 
-After installation, *ExtraTender* is meant to be navigated via keyboard:
+*ExtraTender* is optimized for keyboard use:
 
 - Navigate between threads via 'Tab'
-- Open/Close quick-reply via 'Return/Enter'
+- Open/Close quick-reply via 'Return/Enter' (or by clicking on a discussion item)
 - If quick reply is open, you can tab through the reply options
 
 You can also use the following keyboard shortcuts for the active (or first) comment:
 
 - CMD + Control + C: Close the discussion
-- CMD + Control + D: Delete the discussion
+- CMD + Control + X: Delete the discussion
 - CMD + Control + S: Flag the discussion as spam
+- CMD + Control + .: Jump to the discussion's permalink for additional options
+
+Additional Notes
+----------------
+
+My normal *Tender* workflow rarely requires re-assigning categories or users, so they aren't part of the tabindex. However, I would like to accommodate those who do so in the future, either via prefs or keyboard shortcuts.
 
 Author
 ------
