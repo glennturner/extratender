@@ -41,7 +41,14 @@ function addKeyStates( e ) {
 		// spam discussion
 		} else if ( character == 'S' ) {
 			ET.doDiscussionAction( 'spam' );
+		// jump to single thread
+		} else if ( e.keyCode == 190 ) {
+			console.log( 'OPEN DISCUSSION' );
+		
+			ET.openActiveDiscussion();
 		}
+		
+		return;
 	// toggle visibility
 	} else if ( e.keyCode == 13 && ET.isDiscussion( e.srcElement ) ) {
 		ET.toggleDiscussion( e.srcElement );
