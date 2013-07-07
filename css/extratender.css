@@ -80,8 +80,8 @@
 
 /* via http://www.sitepoint.com/css3-ajax-loading-icon/ */
 
-#extratender-discussion .ajaxloader {
-	display: inline-block;
+#extratender-discussion .ajaxloader, #extratender-discussion .loader {
+	display: none;
 	margin-right: 0.25em;
 	margin-bottom: -4px;
 	width: 10px;
@@ -91,7 +91,7 @@
 	border-radius: 50%;
 }
 
-#extratender-discussion .ajaxloader {
+#extratender-discussion .ajaxloader, #extratender-discussion .loader {
 	-webkit-animation: spin 1s linear infinite;
 	animation: spin 1s linear infinite;
 }
