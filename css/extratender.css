@@ -94,6 +94,49 @@
 	text-align: right;
 }
 
+#extratender-discussion #extratender-user-discussion-count {
+	float: left;
+	margin-top: 0.5em;
+}
+
+.extratender-discussion-list {
+	margin: 0.5em 0 0 0;
+	padding: 0 0.5em 0 0.5em;
+	background-color: #eeeeee;
+}
+
+.extratender-discussion-list li {
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	padding: 0.25em 0 0.25em 0;
+	margin: 0;
+	border-bottom: solid 1px #e6e6e6;
+}
+
+.extratender-discussion-list li > * {
+	display: inline-block;
+}
+
+.extratender-discussion-list li > a {
+	text-align: left;
+	width: 60%;
+}
+
+.extratender-discussion-list li > span {
+	width: 10%;
+}
+
+.extratender-discussion-list li > span:last-child {
+	text-align: right;
+	width: 20%;
+	word-break: keep-all;
+}
+
+.extratender-discussion-list li:last-child {
+	border-bottom: 0;
+}
+
 #extratender-discussion textarea {
 	display: block;
 	clear: both;
