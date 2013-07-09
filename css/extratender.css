@@ -11,6 +11,24 @@
 	width: 100%;
 }
 
+#extratender-discussion .extratender-comments, #extratender-discussion .extratender-comment {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#extratender-discussion .meta {
+	margin: 0 0 10px 0;
+	padding: 5px;
+	background-color: #006fbb;
+	color: #fff;
+}
+
+#extratender-discussion .number {
+	font-weight: bold;
+	margin-right: 0.25em;
+}
+
 #extratender-discussion .hide, #extratender-notify .hide {
 	display: none;
 }
