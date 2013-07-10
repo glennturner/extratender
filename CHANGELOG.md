@@ -1,5 +1,10 @@
 # Changelog
 
+## v.0.39
+
+- Added discussion history viewing
+- Improved visual styling
+
 ## v.0.34
 
 - Added category and user assignment to quick replies
