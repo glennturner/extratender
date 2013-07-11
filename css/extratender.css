@@ -71,7 +71,7 @@
 	background-color: #FDFFB6;
 }
 
-#extratender-notify #extratender-error {
+#extratender-notify #extratender-error, #extratender-discussion .error {
 	background-color: #FFA6AE;
 }
 
