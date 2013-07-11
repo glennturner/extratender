@@ -1,5 +1,11 @@
 # Changelog
 
+## v.0.4
+
+- Added acknowledge support to quick reply
+- Added account verification to settings
+- Improved visual styling
+
 ## v.0.39
 
 - Added discussion history viewing
@@ -16,6 +22,7 @@
 - Tweaks, bug fixes and optimizations to bring the extension up to public availability.
 
 ## v.0.31
+
 - Added keyboard shortcuts
 - Improved Tender action implementation
 - Improved Tender discussion detection
