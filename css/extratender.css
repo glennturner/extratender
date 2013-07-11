@@ -141,7 +141,8 @@
 	display: block;
 	clear: both;
 	width: 100%;
-	height: 5.5em;
+	height: 8em;
+	padding: 0.5em;
 }
 
 #extratender-discussion hr {
