@@ -33,6 +33,7 @@ You can also use the following keyboard shortcuts for the active (or first) comm
 
 - CMD + Control + C: Close the discussion
 - CMD + Control + R: Delete the discussion
+- CMD + Control + A: Acknowledge the discussion
 - CMD + Control + S: Flag the discussion as spam
 - CMD + Control + .: Jump to the discussion's permalink for additional options
 
