@@ -38,6 +38,9 @@ function addKeyStates( e ) {
 		// remove discussion
 		} else if ( character == 'R' ) {
 			ET.doDiscussionAction( 'delete' );
+		// remove discussion
+		} else if ( character == 'A' ) {
+			ET.doDiscussionAction( 'acknowledge' );
 		// spam discussion
 		} else if ( character == 'S' ) {
 			ET.doDiscussionAction( 'spam' );
