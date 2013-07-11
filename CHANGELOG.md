@@ -1,6 +1,10 @@
 # Changelog
 
-## v.0.4
+## v.0.41
+
+- Cleaned up user thread reply syntax
+
+## v.0.40
 
 - Added acknowledge support to quick reply
 - Added account verification to settings
