@@ -45,10 +45,14 @@ function addKeyStates( e ) {
 		} else if ( character == 'S' ) {
 			ET.doDiscussionAction( 'spam' );
 		// jump to single thread
-		} else if ( e.keyCode == 190 ) {
-			console.log( 'OPEN DISCUSSION' );
-		
+		} else if ( e.keyCode == 190 ) {		
 			ET.openActiveDiscussion();
+		// jump to prior discussion
+		} else if ( e.keyCode == 37 ) {
+			ET.jumpToPriorDiscussion();
+		// jump to next discussion
+		} else if ( e.keyCode == 39 ) {
+			ET.jumpToNextDiscussion();
 		}
 		
 		return;
