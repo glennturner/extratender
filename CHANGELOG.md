@@ -1,5 +1,9 @@
 # Changelog
 
+## v.0.42
+
+- Added 'Jump to Next/Prior Discussion' keyboard shortcuts
+
 ## v.0.41
 
 - Cleaned up user thread reply syntax
