@@ -36,6 +36,8 @@ You can also use the following keyboard shortcuts for the active (or first) comm
 - CMD + Control + A: Acknowledge the discussion
 - CMD + Control + S: Flag the discussion as spam
 - CMD + Control + .: Jump to the discussion's permalink for additional options
+- CMD + Control + Right Arrow: Jump to the next discussion
+- CMD + Control + Left Arrow: Jump to the Prior discussion
 
 Additional Notes
 ----------------
