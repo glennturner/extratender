@@ -1,6 +1,6 @@
 {
 	"name": "ExtraTender",
-	"version": "0.42",
+	"version": "0.43",
 	"manifest_version": 2,
 	"description": "An optimized Tenderapp.com for support techs.",
 	"icons": { "16": "icon16.png",
@@ -13,7 +13,7 @@
 	"content_scripts": [
 		{
 			"matches": [ "https://*.tenderapp.com/*", "http://*.tenderapp.com/*" ],
-			"js": [ "lib/util.js", "lib/tender.js", "lib/extratender.js", "contentscript.js" ],
+			"js": [ "lib/mousetrap.min.js", "lib/util.js", "lib/tender.js", "lib/extratender.js", "contentscript.js" ],
 			"css": [ "css/extratender.css" ]
 		}
 	],
