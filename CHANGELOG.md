@@ -1,5 +1,11 @@
 # Changelog
 
+## v.0.43
+
+- Added attachment support
+- Added keyboard shortcuts to settings
+- Fixed bad click handling with discussion lists
+
 ## v.0.42
 
 - Added 'Jump to Next/Prior Discussion' keyboard shortcuts
