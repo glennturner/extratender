@@ -21,6 +21,9 @@ this.i18n = {
     "domain": {
         "en": "Tender Subdomain"
     },
+    "shortcuts": {
+        "en": "Keyboard Shortcuts"
+    },
     "domain-label": {
         "en": "Please enter your Tender subdomain. This is your default Tender namespace, as defined in your Tender settings. Please note: anything BUT your subdomain will create authentication issues."
     },	
@@ -29,6 +32,47 @@ this.i18n = {
 	},
 	"api-key-label": {
 		"en": "Please enter your Tender API key, as found via your Tender user profile."
+	},
+	"shortcuts-label": {
+		"en": "All shortcuts are triggered via CMD/Win/Meta + CTRL."
+		/* "en": "You can customize your Tenderapp keyboard shortcuts below." */
+	},
+	"shortcuts-text": {
+		"en": " \
+			<abbr>TAB/SHIFT-TAB</abbr>: Navigate between discussions<br /> \
+			<abbr>CMD-CTRL-&#8592;</abbr>: Jump to the prior discussion<br /> \
+			<abbr>CMD-CTRL-&#8594;</abbr>: Jump to the next discussion<br /> \
+			<abbr>CMD-CTRL-C</abbr>: Close a discussion<br /> \
+			<abbr>CMD-CTRL-R</abbr>: Delete a discussion<br /> \
+			<abbr>CMD-CTRL-A</abbr>: Acknowledge a discussion<br /> \
+			<abbr>CMD-CTRL-S</abbr>: Label a discussion as SPAM<br /> \
+		"
+		/*
+		
+			// close discussion if confirmed
+			if ( character == 'C' ) {
+				ET.doDiscussionAction( 'close-confirm' );
+			// remove discussion
+			} else if ( character == 'R' ) {
+				ET.doDiscussionAction( 'delete' );
+			// remove discussion
+			} else if ( character == 'A' ) {
+				ET.doDiscussionAction( 'acknowledge' );
+			// spam discussion
+			} else if ( character == 'S' ) {
+				ET.doDiscussionAction( 'spam' );
+			// jump to single thread
+			} else if ( e.keyCode == 190 ) {		
+				ET.openActiveDiscussion();
+			// jump to prior discussion
+			} else if ( e.keyCode == 37 ) {
+				ET.jumpToPriorDiscussion();
+			// jump to next discussion
+			} else if ( e.keyCode == 39 ) {
+				ET.jumpToNextDiscussion();
+			}
+
+		*/
 	},
     "about": {
         "en": "About"
@@ -48,21 +92,8 @@ this.i18n = {
         "de": "10 - 18 Zeichen"
     },
     "description": {
-        "en": "This is a description. You can write any text inside of this.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "en": "ExtraTender is a Chrome extension built to optimize replying to Tender support tickets by adding shortcuts and forms to the discussion list",
         
-        "de": "Das ist eine Beschreibung. Du kannst hier beliebigen Text einfügen.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     "logout": {
         "en": "Logout",

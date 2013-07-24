@@ -38,5 +38,19 @@ this.manifest = {
             "type": "button",
 			"text": "Save Changes"
         }
+		,{
+			"tab": i18n.get("tender"),
+		    "group": i18n.get("shortcuts"),
+		    "name": "Keyboard Shortcuts Label",
+		    "type": "description",
+		    "text": i18n.get("shortcuts-label")
+		},
+		{
+           	"tab": i18n.get("tender"),
+           	"group": i18n.get("shortcuts"),
+           	"name": "Shortcuts",
+           	"type": "description",
+		    "text": i18n.get("shortcuts-text")
+        }
 	]
 };
