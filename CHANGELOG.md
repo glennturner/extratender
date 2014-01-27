@@ -1,5 +1,17 @@
 # Changelog
 
+## v.0.46
+
+- Forced all Tender API requests to timeout after two seconds
+
+## v.0.45
+
+- Improved error handling when retrieving catalog and user lists.
+
+## v.0.44
+
+- Minor bug fixes
+
 ## v.0.43
 
 - Added attachment support
