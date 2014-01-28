@@ -1,5 +1,9 @@
 # Changelog
 
+## v.0.47
+
+- Improved timeout error display handling, and upped timeout limit for comment posting
+
 ## v.0.46
 
 - Forced all Tender API requests to timeout after two seconds
