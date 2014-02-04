@@ -1,5 +1,9 @@
 # Changelog
 
+## v.0.48
+
+- Temporarily removed forced timeouts, due to unpredictable responses from Tender API.
+
 ## v.0.47
 
 - Improved timeout error display handling, and upped timeout limit for comment posting
