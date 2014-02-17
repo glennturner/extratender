@@ -1,5 +1,12 @@
 # Changelog
 
+## v.0.49
+
+- Fixed a bug that prevented quick replies when viewing some discussion lists
+- Added internal reply highlighting
+- Added quick reply textarea disabling when submitting a Tender action for a discussion
+- Improved comment thread styling
+
 ## v.0.48
 
 - Temporarily removed forced timeouts, due to unpredictable responses from Tender API.
