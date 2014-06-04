@@ -1,5 +1,9 @@
 # Changelog
 
+## v.0.50
+
+- Improved discussion toggles for click events
+
 ## v.0.49
 
 - Fixed a bug that prevented quick replies when viewing some discussion lists
