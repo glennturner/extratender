@@ -1,7 +1,7 @@
 
 /* ExtraTender styling */
 
-.discussion-item:focus {
+.discussion-item:focus, .actionbutton:focus {
 	background-color: rgba(0,111,187,0.1);
 }
 
