@@ -3,10 +3,16 @@ ExtraTender
 
 A Chrome extension for [Tender](http://tenderapp.com) to enable quick replies within discussion lists via the Tender API.
 
-Why?
+## WARNING: THIS IS A CHROME MANIFEST v2 EXTENSION!
+
+As ExtraTender is a Manifest v2 extension, it is no longer available in the Chrome Web Store. However, currently you can load it as an unpacked extension.
+
+Additionally, I am no longer actively maintaining this extension. I may update it to Manifest v3 as necessary, but have no plans to immediately do so.
+
+Why a Tender Extension?
 ----
 
-I love Tender, but clicking through each and every thread, replying and then manually closing the thread really drags down our support ticket efficiency, especially when many of our tickets only require a boilerplate response. 
+I love Tender, but clicking through each and every thread, replying and then manually closing the thread really drags down our support ticket efficiency, especially when many of our tickets only require a boilerplate response.
 
 As I'm a developer that replies directly to our company's users, I found this cumbersome and created *ExtraTender*, which allows us to drill through discussion lists quickly. The quick-reply options cover ~90% of our tickets, and has reduced the amount of time we spend on support tickets drastically. Hopefully it'll help you, too!
 
